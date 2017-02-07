@@ -30,3 +30,12 @@
 
 ## 17.02.05
 * hire me 기능 구현중
+
+## 17.02.06
+* hrie me 완성
+* to top button 구현중
+
+## 17.02.07
+* [to top button](http://stackoverflow.com/questions/10063380/javascript-smooth-scroll-without-the-use-of-jquery) 완성
+* [page landing event](http://codepen.io/catuy/pen/xwqzNy) 구현중 (문제점: 스크롤 렉)
+* 

@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="project_MyBlog.css">
 	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
 <body>
 	<div class="hireMe">
@@ -23,21 +24,23 @@
 	</div>
 
 	<div class="pushDown">
-		<header>
+		<header id="header" class="animated fadeInDown first">
 			<div id="hireMeBtn">Hire me</div>
 			<div id="menuBtn">menu</div>
 		</header>
 
 		<div class="frontPage">
 			<div class="title">
-			  	<div class="mainTitle">Minbr0ther</div>
-			  	<div class="subTitle">M. H. Jeong</div>
+			  	<div class="mainTitle animated fadeInDown second">Minbr0ther</div>
+			  	<div class="subTitle animated fadeInUp second">M. H. Jeong</div>
 			</div>
 
-			<video class="frontVideo" autoplay loop>
-		  		<source src="https://d27shkkua6xyjc.cloudfront.net/videos/maaemo-film-2.mp4?mtime=20141113185431" 
-		  		type="video/mp4">
-		  	</video>
+			<div class="1animated fadeIn">
+				<video class="frontVideo" autoplay loop>
+			  		<source src="https://d27shkkua6xyjc.cloudfront.net/videos/maaemo-film-2.mp4?mtime=20141113185431" 
+			  		type="video/mp4">
+			  	</video>
+		  	</div>
 		</div>
 
 	    <nav id="menu" role="navigation"> <!-- 안보임 -->
@@ -98,7 +101,7 @@
 		</footer>
 
 		<div class="toTopBtn">
-			&#8679;
+			<br>↑
 		</div>
     </div>
     

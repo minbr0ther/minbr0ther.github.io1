@@ -39,3 +39,12 @@
 * [to top button](http://stackoverflow.com/questions/10063380/javascript-smooth-scroll-without-the-use-of-jquery) 완성
 * [page landing event](http://codepen.io/catuy/pen/xwqzNy) 구현중 (문제점: 스크롤 렉)
 * article [animate on scroll](https://github.com/michalsnik/aos) 구현
+
+## 17.02.08
+* 메인 화면 video 변경
+* header 상단 고정, 여러가지 bug 발견
+* bug fix하는 중 
+
+> 여기까지 1.0ver
+
+* hire me 때문에 다 뜯어고치는 중

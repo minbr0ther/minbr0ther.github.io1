@@ -22,25 +22,26 @@
 	-webkit-animation-delay:1s;
 }
 
+
 body {
     margin: 0;
     font-size: 1.2em;
     font-family: 'Raleway', sans-serif;
    	-webkit-font-smoothing: antialiased;
     line-height: 1.4;
-    background: #fff;
     width: 100%;
     height: 100%;
 }
 
 .pushDown {
-	transform:translateX(0px);
+	1transform:translateX(0px);
+	top:0;
 	transition: all .5s ease;
 }
 
 .hireMe {
-	position: fixed;
-	top:-700px;
+	1position: fixed;
+	1top:-700px;
 	width: 100%;
 	height: 700px;
 	background-color: #f8f8f8;
@@ -78,12 +79,13 @@ body {
 /*right-push-menu*/
 #menu {
     position: fixed;
+    z-index: 100;
     top: 0;
     right: -450px;
 
 	width:450px;
 	height:800px;
-	margin-top: 88.5px;
+	margin-top: 82.5px;
 
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
@@ -122,11 +124,23 @@ body {
     color:gray; 
 }
 
+.articlePage {
+	transition: all 0.8s ease-out;	
+}
+
+.hireMePlusHeader {
+	position: fixed;
+	z-index: 100;
+	top: -700px;
+	width: 100%;
+	transition: all .5s ease;
+}
+
 /*header*/
-header {
-	1background-color:white;
-	1position: fixed;
-	padding-top: 2%;
+#header {
+	background-color:#333333;
+	color:white;
+	padding-top: 22.5px;
 	width: 100%;
 	height: 60px;
 }
@@ -144,12 +158,17 @@ header {
 	transition: all 0.5s ease;
 }
 
+#margin {
+	height: 82.5px;
+	width: 100%;
+}
+
 
 /*.frontPage*/
 .frontPage {
 	position: relative;
 	font-weight: 200;
-	1height: 800px; /*영이높이*/
+	1margin-top: 88.5px;
 
     -webkit-transition: all 0.8s ease-out;
        -moz-transition: all 0.8s ease-out;
@@ -164,7 +183,7 @@ header {
 .title {
 	position: absolute;
 	width: 100%;
-	margin-top: 18%;
+	margin-top: 23%;
 	text-align: center;
 	color:white;
 }
@@ -172,6 +191,7 @@ header {
 .mainTitle {
 	font-family: 'Poiret One', cursive;
 	font-size: 5em;
+	font-weight: bold;
 }
 
 
@@ -272,7 +292,7 @@ footer {
 	cursor: pointer;
 	position: fixed;
 	right:68px;
-	bottom:0px;
+	bottom:-50px;
 	transition: all 0.5s ease-out;
 	font-size: 1.5em;
 	text-align: center;

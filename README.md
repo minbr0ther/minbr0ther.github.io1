@@ -1,6 +1,30 @@
 # project myBlog
 > 매일매일 회고 형식으로 일지를 작성한다
 
+---
+
+### MyBlog To-Do 
+
+- [x] 페이지 오프닝 애니메이션
+- [x] hire me & close 전환
+- [x] menu & close 전환 (보류)
+- [x] article 나타나는 애니메이션
+- [x] to top 버튼 bugFix (scroll)
+- [x] header 스크롤 상호작용 (scroll)
+- [x] header 하단에 그림자 추가 (하지마)
+- [x] 아이콘 추가하기
+
+---
+
+### Advanced To-Do
+- [ ] article 레이아웃 뜯어고치기
+- [ ] 반응형 웹 강의
+- [ ] 타이틀 점점 사라짐 (영상 fixed)
+
+---
+---
+---
+
 
 ## 17.01.31
 * [노르웨이 레스토랑 사이트](https://maaemo.no/)를 기반으로 내 블로그를 만들어 본다
@@ -65,24 +89,4 @@
 * hire me 에 [아이콘](http://fontawesome.io/icons/) 추가하기
 * anchor tag 걸기 완료
 
----
----
----
 
-### MyBlog To-Do 
-
-- [x] 페이지 오프닝 애니메이션
-- [x] hire me & close 전환
-- [x] menu & close 전환 (보류)
-- [x] article 나타나는 애니메이션
-- [x] to top 버튼 bugFix (scroll)
-- [x] header 스크롤 상호작용 (scroll)
-- [x] header 하단에 그림자 추가 (하지마)
-- [x] 아이콘 추가하기
-
----
-
-### Advanced To-Do
-- [ ] article 레이아웃 뜯어고치기
-- [ ] 반응형 웹 강의
-- [ ] 타이틀 점점 사라짐 (영상 fixed)

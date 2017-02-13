@@ -3,8 +3,7 @@
 
 
 ## 17.01.31
-* https://maaemo.no/ 
-* 위 사이트를 기반으로 내 블로그를 만들어 본다
+* [노르웨이 레스토랑 사이트](https://maaemo.no/)를 기반으로 내 블로그를 만들어 본다
 
 * [backlog](https://docs.google.com/spreadsheets/d/1U64eg0LnYGroW6nOHQUJzeRg6Tkr1Q8bW6HEZP0Vx0A/edit?usp=sharing)작성
 
@@ -47,4 +46,43 @@
 
 > 여기까지 1.0ver
 
-* hire me 때문에 다 뜯어고치는 중
+* hireMe + Header 때문에 다 뜯어고치는 중
+* hireMe + Header 보수 완료 
+
+## 17.02.09
+* to top 버튼 bug fix중
+* [스크롤 방향 알기](https://gist.github.com/minbr0ther/36a69090754c852c9a76d5c6fc6003f4) 연구 중
+* hire me & close 전환 완료
+* menu & close 전환 개발중
+
+## 17.02.10
+* menu & close 전환 개발 보류
+
+## 17.02.13
+* header [스크롤](http://jsbin.com/levodisozi/edit?html,css,js,console,output) 상호작용 완료
+* to top 버튼 bugFix 완료
+* menu & close 전환 완료
+* hire me 에 [아이콘](http://fontawesome.io/icons/) 추가하기
+* anchor tag 걸기 완료
+
+---
+---
+---
+
+### MyBlog To-Do 
+
+- [x] 페이지 오프닝 애니메이션
+- [x] hire me & close 전환
+- [x] menu & close 전환 (보류)
+- [x] article 나타나는 애니메이션
+- [x] to top 버튼 bugFix (scroll)
+- [x] header 스크롤 상호작용 (scroll)
+- [x] header 하단에 그림자 추가 (하지마)
+- [x] 아이콘 추가하기
+
+---
+
+### Advanced To-Do
+- [ ] article 레이아웃 뜯어고치기
+- [ ] 반응형 웹 강의
+- [ ] 타이틀 점점 사라짐 (영상 fixed)

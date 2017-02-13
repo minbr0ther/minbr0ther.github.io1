@@ -1,0 +1,93 @@
+.pos {
+  position:absolute;
+  width:30px;
+}
+
+.menuBtn{
+  margin-top: 18px;
+  margin-right: 8%;
+  float: right;
+  cursor:pointer;
+  transition: all 0.5s ease;
+}
+
+.wrap_cover {
+    position: absolute;
+    right: 83px;
+    margin-top: 4px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    opacity: 0;
+}
+
+.rev {
+  animation-direction:reverse;
+}
+
+.l1{
+  border:1px solid white;
+  transform:translateY(-10px);
+}
+
+.l2{
+  border:1px solid white;
+  transform:translateY(0px);
+}
+
+.l3{
+  border:1px solid white;
+  transform:translateY(10px);
+}
+
+
+
+.oneAnimation {
+  animation: moveDown 0.8s forwards;
+}
+
+.twoAnimation {
+  animation: rotate 0.8s forwards;
+}
+
+.threeAnimation {
+  animation: moveUp 0.8s forwards;
+}
+
+
+
+@keyframes moveDown {
+  0% {
+    transform:translateY(-10px);
+  }
+  70% {
+    transform:translateY(0px);
+  }
+  100%{
+    transform: matrix(0.7071, 0.7071, -0.7071, 0.7071, 0, 0)
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform:translateY(0px);
+  }
+  70% {
+    transform:translateY(0px);
+  }
+  100%{
+    transform: matrix(-0.7071, 0.7071, -0.7071, -0.7071, 0, 0);
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    transform:translateY(10px);
+  }
+  70% {
+    transform:translateY(0px);
+  }
+  100%{
+    transform: matrix(-0.7071, 0.7071, -0.7071, -0.7071, 0, 0);
+  }

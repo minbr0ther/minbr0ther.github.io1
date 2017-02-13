@@ -7,6 +7,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="menuBtn/menuBtn.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 </head>
 <body>
 	<div class="frontPage">
@@ -16,13 +19,10 @@
 		</div>
 
 		<div id="margin"></div>
-
-		<div class="1animated fadeIn">
-			<video class="frontVideo" autoplay loop>
-		  		<source src="video/For_Wes.mp4" type="video/mp4">
-		  		<!-- https://d27shkkua6xyjc.cloudfront.net/videos/maaemo-film-2.mp4?mtime=20141113185431 -->
-		  	</video>
-	  	</div>
+		
+		<video class="frontVideo" autoplay lo기p>
+	  		<source src="video/For_Wes.mp4" type="video/mp4">
+	  	</video>
 	</div>
 
 	<div class="hireMePlusHeader">
@@ -35,15 +35,35 @@
 				<div id="infoHead">LOCATION</div>
 				<div id="info">Gwangmyeong-si,<br>Gyeonggi-do,<br>Republic of Korea</div>
 				<div id="infoHead">LANGUAGES</div>
-				<div id="info">JavaScript, HTML5, CSS3, C++</div>
+				<div id="info">
+					<a href="https://en.wikipedia.org/wiki/HTML5">
+						<i class="devicon-html5-plain"></i></a>
+					<a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3">
+						<i class="devicon-css3-plain"></i></a>
+					<a href="https://en.wikipedia.org/wiki/JavaScript">
+						<i class="devicon-javascript-plain"></i></a>
+					<a href="https://en.wikipedia.org/wiki/C%2B%2B">
+						<i class="devicon-cplusplus-plain"></i></a>
+				</div>
 				<div id="infoHead">NETWORKS</div>
-				<button>F</button><button>I</button><button>G</button>
+				<a href="https://www.facebook.com/minbr0ther">
+				<i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+				<a href="https://www.instagram.com/minbr0ther/">
+				<i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+				<a href="https://github.com/minbr0ther?tab=repositories">
+				<i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
 			</div>
 		</div>
-		<!-- <div class="pushDown"> -->
+
 		<div id="header">
-			<div id="hireMeBtn" class="animated fadeInDown first">Hire me</div>
-			<div id="menuBtn" class="animated fadeInDown first">menu</div>
+			<div id="hireMeBtn" class="animated fadeIn first">Hire me !!</div>
+			<div id="closeBtn" class="animated hidden">Close window</div> 
+			<div class="menuBtn animated fadeIn first">
+			  <div class="l1 pos"></div>
+			  <div class="l2 pos"></div>
+			  <div class="l3 pos"></div>
+			</div>
+			<div class="wrap_cover"></div>
 		</div>
 	</div>
 
@@ -92,15 +112,21 @@
 
 	<footer>
 		<div class="leftPart">
-			<div id="adress">Gwangmyeong-si, Gyeonggi-do, Republic of Korea</div>
+			<a href="https://goo.gl/maps/JUYGwF7Fj3k">
+			<div id="adress">Gwangmyeong-si, Gyeonggi-do, Republic of Korea</div></a>
+			<a href="tel:+821076793974">
 			<div id="number">+82 10 7679 3974</div>
-			<div id="mail">minbr0ther@naver.com</div>
+			<a href="mailto:minbr0ther@naver.com">
+			<div id="mail">minbr0ther@naver.com</div></a>
 		</div>
 
 		<div class="rightPart">
-			<div id="facebook">Facebook</div>
-			<div id="instagram">Instagram</div>
-			<div id="github">github</div>
+			<a href="https://www.facebook.com/minbr0ther">
+			<div id="facebook">Facebook</div></a>
+			<a href="https://www.instagram.com/minbr0ther/">
+			<div id="instagram">Instagram</div></a>
+			<a href="https://github.com/minbr0ther?tab=repositories">
+			<div id="github">github</div></a>
 		</div>
 	</footer>
 
@@ -108,7 +134,8 @@
 		<br>↑
 	</div>
    <!--  </div> -->
-    
+
+	<script src="menuBtn/menuBtn.js"></script> 
 	<script src="project_MyBlog.js"></script>
 	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 	<script>AOS.init();</script>

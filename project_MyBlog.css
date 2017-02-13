@@ -1,6 +1,6 @@
 /*events*/
-#hireMeBtn:hover, #menuBtn:hover, #adress:hover, #number:hover,
-#mail:hover, #facebook:hover, #instagram:hover, #github:hover {
+#hireMeBtn:hover, #closeBtn:hover, #menuBtn:hover, #adress:hover, #number:hover,
+#mail:hover, #facebook:hover, #instagram:hover, #github:hover, a:hover{
 	color:gray; 
 	transition:all 0.3s;
 }
@@ -20,6 +20,11 @@
 	animation-delay:1s;
 	-moz-animation-delay:1s;
 	-webkit-animation-delay:1s;
+}
+
+a, a:link:active, a:visited:active { 
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -66,14 +71,21 @@ body {
 #info {
 	font-weight: 400;
 	font-size: 0.8em;
-	margin-top: 5px;
+	margin-top: 7px;
+}
+
+i {
+	font-size: 2.0rem;
+    margin-top: 10px;
+    margin-left: 6px;
+    cursor: pointer;
 }
 
 #wrapText div {
 }
 
 #wrapText {
-	padding: 5%;
+	padding: 3%;
 }
 
 /*right-push-menu*/
@@ -146,19 +158,38 @@ body {
 }
 
 #hireMeBtn {
+	margin-top: 5px;
 	margin-left: 6%;
 	position: absolute;
 	cursor:pointer;
 }
 
+.hidden{
+	visibility: hidden;
+}
+
+.replace {
+	transform:translateY(0px);
+}
+
+#closeBtn {
+	margin-top: 5px;
+	margin-left: 6%;
+	position: absolute;
+	cursor:pointer;
+}
+
+
 #menuBtn {
+	margin-top: 5px;
 	margin-right: 6%;
 	float: right;
 	cursor:pointer;
-	transition: all 0.5s ease;
+	1transition: all 0.5s ease;
 }
 
 #margin {
+	background-color:#333333;
 	height: 82.5px;
 	width: 100%;
 }
@@ -248,6 +279,7 @@ article {
 }
 
 .five {
+	margin-left: 24%;
 	width: 55%;
 }
 
